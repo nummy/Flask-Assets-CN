@@ -58,7 +58,8 @@ js = Bundle('app_level.js', 'blueprint/blueprint_level.js')
 {% endassets %}
 ```
 ### 配置
-```webassets```有许多配置选项，在```Flask-Assets```中既可以通过```Environment```实例对象进行设置，也可以通过```app```来进行设置。下面两条语句的效果是等价的。
+
+webassets有许多配置选项，在```Flask-Assets```中既可以通过```Environment```实例对象进行设置，也可以通过```app```来进行设置。下面两条语句的效果是等价的。
 ```
 assets_env.debug = True
 app.config['ASSETS_DEBUG'] = True
